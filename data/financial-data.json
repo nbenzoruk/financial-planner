@@ -1,0 +1,57 @@
+{
+  "purchases": [
+    {
+      "id": "37a3ab06-70de-4e89-b020-f653be19be0e",
+      "name": "iPhone 15 Pro",
+      "price": 1200,
+      "category": "Электроника",
+      "date": "2026-01-17T16:18:56.689Z",
+      "expectedLifespanYears": 3,
+      "usageFrequency": "daily",
+      "notes": "Смартфон для работы и личного использования"
+    },
+    {
+      "id": "4c939fb3-50ab-44e5-a8fc-20d44abf91f2",
+      "name": "Чехол для iPhone",
+      "price": 80,
+      "category": "Электроника",
+      "date": "2026-01-17T16:19:19.368Z",
+      "expectedLifespanYears": 1,
+      "usageFrequency": "daily"
+    },
+    {
+      "id": "b7299e9d-20fb-42f7-9589-4c7fc6b04c84",
+      "name": "Защитное стекло для iPhone",
+      "price": 40,
+      "category": "Электроника",
+      "date": "2026-01-17T16:19:19.408Z",
+      "expectedLifespanYears": 1,
+      "usageFrequency": "daily"
+    }
+  ],
+  "investments": [
+    {
+      "id": "274d4e6a-2939-4663-ba04-fec47f394afd",
+      "name": "S&P 500 ETF",
+      "initialAmount": 10000,
+      "type": "stocks",
+      "expectedReturnPercent": 10,
+      "riskLevel": "medium",
+      "timeHorizonYears": 10,
+      "date": "2026-01-17T16:19:01.116Z",
+      "notes": "Долгосрочные инвестиции в индекс"
+    },
+    {
+      "id": "b63b740f-dbda-461f-b5a4-c94f1e0d4deb",
+      "name": "Новая криптовалюта",
+      "initialAmount": 5000,
+      "type": "crypto",
+      "expectedReturnPercent": 100,
+      "riskLevel": "high",
+      "timeHorizonYears": 1,
+      "date": "2026-01-17T16:19:24.657Z",
+      "notes": "Хочу быстро заработать"
+    }
+  ],
+  "lastUpdated": "2026-01-17T16:19:24.658Z"
+}
