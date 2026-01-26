@@ -84,4 +84,21 @@ export class Storage {
     data.purchases = data.purchases.filter(p => p.id !== id);
     await this.save(data);
   }
+
+  // Обновление инвестиции
+  static async updateInvestment(id: string, updates: Partial<Investment>): Promise<void> {
+    const data = await this.load();
+    const index = data.investments.findIndex(i => i.id === id);
+    if (index !== -1) {
+      data.investments[index] = { ...data.investments[index], ...updates };
+      await this.save(data);
+    }
+  }
+
+  // Удаление инвестиции
+  static async deleteInvestment(id: string): Promise<void> {
+    const data = await this.load();
+    data.investments = data.investments.filter(i => i.id !== id);
+    await this.save(data);
+  }
 }
